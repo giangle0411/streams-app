@@ -8,7 +8,8 @@ export class GoogleAuth extends Component {
       window.gapi.client
         .init({
           //delete personal clientId before any commit
-          clientId: '',
+          clientId:
+            '784507595968-b6h9hts7oe6mdno12t9u5en1rsunk0lg.apps.googleusercontent.com',
           scope: 'email',
         })
         .then(() => {
